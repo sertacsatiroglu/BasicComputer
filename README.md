@@ -58,7 +58,7 @@ You will need:
 
 ### **2. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/basic-computer-design.git
+git clone https://github.com/sertacsatiroglu/basic-computer-design.git
 cd basic-computer-design
 ```
 
