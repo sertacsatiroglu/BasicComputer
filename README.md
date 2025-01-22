@@ -1,7 +1,3 @@
-# Basic Computer
-Here’s a detailed **README.md** file you can use for your GitHub repository. It explains the purpose of your project, the structure of the files, and how to use the design.
-
----
 
 # **Basic Computer Design in Verilog**
 
