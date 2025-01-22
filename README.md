@@ -42,13 +42,12 @@ The computer executes instructions stored in memory. Each instruction is 16 bits
 ```
 
 ### Supported Instructions:
----
--> MEMORY : AND,ADD,STA, LDA, BUN, BSA, ISZ (Both direct and indirect)
--> REGISTER : CLA,CME, CMA, CLE, CIR, CIL, INC, SPA, SNA, SZA, SZE, HLT
----
 ```
-Also ION, IEN
----
+-MEMORY : AND,ADD,STA, LDA, BUN, BSA, ISZ (Both direct and indirect)
+-REGISTER : CLA,CME, CMA, CLE, CIR, CIL, INC, SPA, SNA, SZA, SZE, HLT
+
+-Also: ION, IEN (for interrupt service routine)
+```
 
 ## **Getting Started**
 
