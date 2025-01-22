@@ -46,17 +46,9 @@ The computer executes instructions stored in memory. Each instruction is 16 bits
 ```
 
 ### Supported Instructions:
-| Opcode | Mnemonic | Description                          |
-|--------|----------|--------------------------------------|
-| `000`  | `LOAD`   | Load data from memory to the AC.     |
-| `001`  | `STORE`  | Store data from AC to memory.        |
-| `010`  | `ADD`    | Add data from memory to AC.          |
-| `011`  | `SUB`    | Subtract data from memory from AC.   |
-| `100`  | `INPUT`  | Input data to the AC.                |
-| `101`  | `OUTPUT` | Output data from the AC.             |
-| `110`  | `JUMP`   | Jump to a specified memory address.  |
-| `111`  | `HALT`   | Stop execution.                      |
-
+-> MEMORY : AND,ADD,STA, LDA, BUN, BSA, ISZ (Both direct and indirect)
+-> REGISTER : CLA,CME, CMA, CLE, CIR, CIL, INC, SPA, SNA, SZA, SZE, HLT
+Also ION, IEN
 ---
 
 ## **Getting Started**
@@ -146,5 +138,3 @@ Contributions are welcome! If you have improvements or find issues, feel free to
 - Special thanks to [Icarus Verilog](https://iverilog.fandom.com/wiki/Installation) and [GTKWave](http://gtkwave.sourceforge.net/) for their tools.
 
 ---
-
-You can replace the placeholder text (like `yourusername`) with your GitHub username or repository details. Let me know if you'd like additional edits!
